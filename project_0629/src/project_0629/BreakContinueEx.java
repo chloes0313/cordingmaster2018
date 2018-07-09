@@ -34,8 +34,6 @@ public class BreakContinueEx {
 			
 			System.out.println("선택하신 메뉴는 " + menu + "입니다.");
 			
-			BigDecimal b = new BigDecimal(12354430.05);
-			
 		}
 	}
 }
