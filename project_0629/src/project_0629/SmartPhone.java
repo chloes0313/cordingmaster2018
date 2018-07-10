@@ -23,6 +23,7 @@ public class SmartPhone extends Phone {
 	void closeApp(String app) {
 		System.out.printf("[%s]앱을 종료합니다.\n", app);
 	}
+	
 }
 
 
