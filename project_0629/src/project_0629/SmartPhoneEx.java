@@ -4,8 +4,8 @@ public class SmartPhoneEx {
 	public static void main(String[] args) {
 		
 		//SmartPhone 객체 생성
-		SmartPhone myPhone = new SmartPhone("아이폰X", "black", "ios");
-		//SmartPhone myPhone = new SmartPhone();
+		//SmartPhone myPhone = new SmartPhone("아이폰X", "black", "ios");
+		SmartPhone myPhone = new SmartPhone();
 		
 		//Phone클래스로부터 상속 받은 멤버변수
 		System.out.println("모델명 : " + myPhone.model);
