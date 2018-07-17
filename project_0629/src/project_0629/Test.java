@@ -1,31 +1,12 @@
 package project_0629;
 
 public class Test {
-
 	public static void main(String[] args) {
 		
-		Tv t = new Tv();
-		
-		t.color = "빨강";
-		t.size = 30;
-		t.volume = 15;
-		t.channel = 13;
-
-		t.turnOn();
-		
-	}
-
-}
-
-class Tv{
-	
-	String color;
-	int size;
-	int volume;
-	int channel;
-
-	void turnOn() {
-		int temp = 0;
-		System.out.println("TV를 켭니다.");
+		//Animal animal1 = new Animal();		//Error. 추상클래스 객체 생성 불가능
+		Animal animal2 = new Dog();
+		Dog animal3 = new Dog();
 	}
 }
+
+

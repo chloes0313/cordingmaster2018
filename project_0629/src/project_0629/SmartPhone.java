@@ -3,6 +3,9 @@ package project_0629;
 public class SmartPhone extends Phone {
 	//멤버변수
 	String os;
+	//디스플레이 클래스
+	Display dp1 = new RetinaDispaly();
+	Display dp2 = new AMOLEDDispaly();
 	
 	//생성자
 	
