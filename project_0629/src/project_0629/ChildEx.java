@@ -5,8 +5,8 @@ import test1.A;
 public class ChildEx {
 	public static void main(String[] args) {
 		
-		Parent p = new Child();		//자동 타입 변환
-		boolean result = p instanceof Child;
+		Parent p = new Child();					//자동 타입 변환
+		boolean result = p instanceof Child;	//true
 		
 		
 		System.out.println(result);
